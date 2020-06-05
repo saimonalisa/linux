@@ -1,4 +1,6 @@
-a=42
-if [$a -gt 32 ] then
-echo $a fi
+a=37
+if [$a -gt 27 ]then
+echo
+$a
+fi
 exit $?
