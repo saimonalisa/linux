@@ -1,6 +1,6 @@
-a=37
-if [$a -gt 27 ]then
-echo
-$a
-fi
-exit $?
+for a in 1 2 3
+do
+echo "$a“
+done
+exit 0
+echo $?
